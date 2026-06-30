@@ -177,7 +177,7 @@ function securityHeaders() {
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "DENY",
     "Referrer-Policy": "no-referrer",
-    "X-Proxy-By": "Xnuvers007 (github.com/Xnuvers007)",
+    "X-Proxy-By": "fornesia.com",
     "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
     "Cross-Origin-Resource-Policy": "cross-origin",
     "X-Download-Options": "noopen",
@@ -312,112 +312,7 @@ function landingPage(requestUrl) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CORS Proxy Gratis - Free, Secure &amp; Fast CORS Proxy API | Xnuvers007</title>
-<meta name="description" content="CORS Proxy gratis dan aman. Bypass CORS error untuk fetch/XHR JavaScript. Mendukung semua HTTP method, rate-limited, SSRF protection, dan streaming 500MB. Ditenagai Cloudflare Workers.">
-<meta name="keywords" content="cors proxy, free cors proxy, cors bypass, cors anywhere, cors error fix, proxy api, fetch cors, javascript cors, cors proxy online, cloudflare cors proxy, secure cors proxy, bypass cors, access-control-allow-origin, cors header, api proxy gratis, cors proxy indonesia">
-<meta name="author" content="Xnuvers007">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta name="googlebot" content="index, follow">
-<meta name="bingbot" content="index, follow">
-<meta name="revisit-after" content="7 days">
-<meta name="language" content="Indonesian">
-<meta name="rating" content="general">
-<meta name="category" content="Technology, Developer Tools">
-<meta name="google-site-verification" content="5fXy6ddYnEo0LHvXabZMvqyitQGFS9p6uVlMF-2qzzg" />
-<meta name="theme-color" content="#0f0f1a">
-<meta name="color-scheme" content="dark">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="CORS Proxy">
-<link rel="canonical" href="${rawOrigin}/">
-<!-- Open Graph / Facebook / WhatsApp -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="${rawOrigin}/">
-<meta property="og:title" content="CORS Proxy Gratis - Free, Secure &amp; Fast CORS Proxy API">
-<meta property="og:description" content="Bypass CORS error secara gratis. Proxy API aman dengan rate-limiting, SSRF protection, dan mendukung semua HTTP methods (GET/POST/PUT/DELETE). Ditenagai Cloudflare Workers.">
-<meta property="og:site_name" content="CORS Proxy by Xnuvers007">
-<meta property="og:locale" content="id_ID">
-<meta property="og:locale:alternate" content="en_US">
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CORS Proxy Gratis - Free, Secure &amp; Fast CORS Proxy API">
-<meta name="twitter:description" content="Bypass CORS error secara gratis. Proxy API aman dengan rate-limiting, SSRF protection, dan streaming 500MB.">
-<meta name="twitter:creator" content="@Xnuvers007">
-<meta name="twitter:site" content="@Xnuvers007">
-<!-- JSON-LD Structured Data (WebApplication + BreadcrumbList) -->
-<script type="application/ld+json">
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "CORS Proxy by Xnuvers007",
-    "url": "${rawOrigin}/",
-    "description": "Free and secure CORS proxy built on Cloudflare Workers. Bypass CORS errors for JavaScript fetch/XHR API requests. Supports GET, POST, PUT, PATCH, DELETE methods with rate-limiting and SSRF protection.",
-    "applicationCategory": "DeveloperApplication",
-    "applicationSubCategory": "WebProxy",
-    "operatingSystem": "Any",
-    "browserRequirements": "Requires JavaScript",
-    "inLanguage": ["id", "en"],
-    "isAccessibleForFree": true,
-    "keywords": "cors proxy, free cors proxy, bypass cors, cors anywhere, cors error, api proxy",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "featureList": "Rate limiting per IP, Daily budget per IP, SSRF protection, Streaming 500MB, Request timeout 30s, Port scan blocking, Redirect validation, Header sanitization, CORS all origins, Cloudflare Workers",
-    "author": {
-      "@type": "Person",
-      "name": "Xnuvers007",
-      "url": "https://github.com/Xnuvers007"
-    },
-    "provider": {
-      "@type": "Person",
-      "name": "Xnuvers007",
-      "url": "https://github.com/Xnuvers007"
-    }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Apa itu CORS Proxy?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "CORS Proxy adalah layanan yang memungkinkan browser mengakses API atau resource dari domain lain yang tidak mengizinkan CORS. Proxy ini menambahkan header Access-Control-Allow-Origin ke setiap response."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Bagaimana cara menggunakan CORS Proxy ini?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Tambahkan URL target sebagai parameter: ${rawOrigin}/?url=https://api.example.com/data. Proxy mendukung semua HTTP method: GET, POST, PUT, PATCH, DELETE."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Apakah CORS Proxy ini gratis?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ya, sepenuhnya gratis dengan limit 60 request per menit dan 2000 request per hari per IP. Ditenagai Cloudflare Workers."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Apakah CORS Proxy ini aman?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ya. Proxy ini dilengkapi SSRF protection, port scan blocking, header sanitization, rate limiting, dan validasi redirect. IP internal/private diblokir sepenuhnya."
-        }
-      }
-    ]
-  }
-]
-</script>
+<title>CORS fornesia.com</title>
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data: blob:; media-src blob:; connect-src 'self'; base-uri 'none'; form-action 'none';">
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
@@ -591,163 +486,7 @@ function landingPage(requestUrl) {
 </style>
 </head>
 <body>
-<div class="wrapper">
-  <header class="header">
-    <div class="logo" role="img" aria-label="Shield">🛡️</div>
-    <h1>CORS Proxy Gratis — Secure &amp; Fast</h1>
-    <p>Bypass CORS Error • Rate-Limited • 500MB Streaming • SSRF Protected — Gratis, ditenagai <strong>Cloudflare Workers</strong> oleh <a href="https://github.com/Xnuvers007" target="_blank" rel="noopener noreferrer" style="color:var(--primary);text-decoration:none">Xnuvers007</a></p>
-  </header>
-  <div class="stats">
-    <div class="stat"><div class="num">${CONFIG.RATE_LIMIT_MAX}</div><div class="label">Req / Menit</div></div>
-    <div class="stat"><div class="num">${CONFIG.RATE_LIMIT_COOLDOWN_SEC}s</div><div class="label">Cooldown</div></div>
-    <div class="stat"><div class="num">${CONFIG.MAX_RESPONSE_SIZE / 1024 / 1024}MB</div><div class="label">Max Response</div></div>
-    <div class="stat"><div class="num">${CONFIG.DAILY_BUDGET_PER_IP}</div><div class="label">Daily / IP</div></div>
-  </div>
-  <div class="card">
-    <h2><span>�</span> Visitor Stats</h2>
-    <div id="visitorStats" class="stats" style="margin-bottom:0">
-      <div class="stat"><div class="num">-</div><div class="label">Loading...</div></div>
-      <div class="stat"><div class="num">-</div><div class="label">Loading...</div></div>
-      <div class="stat"><div class="num">-</div><div class="label">Loading...</div></div>
-      <div class="stat"><div class="num">-</div><div class="label">Loading...</div></div>
-    </div>
-  </div>
-  <div class="card">
-    <h2><span>�🚀</span> Coba Sekarang</h2>
-    <div class="try-form">
-      <input id="urlInput" type="url" placeholder="https://api.example.com/data" />
-      <button id="fetchBtn">Fetch</button>
-    </div>
-    <div id="result" class="result"></div>
-  </div>
-  <div class="card">
-    <h2><span>📖</span> Cara Pakai</h2>
-    <pre><code>// GET request
-fetch("${baseUrl}/?url=https://api.example.com/data")
-  .then(r =&gt; r.json())
-  .then(data =&gt; console.log(data));</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-    <br>
-    <pre><code>// POST request
-fetch("${baseUrl}/?url=https://api.example.com/submit", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ name: "test" })
-});</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-  </div>
-  <div class="card">
-    <h2><span>🔗</span> Endpoint</h2>
-    <pre><code>${baseUrl}/?url={TARGET_URL}</code><button class="copy-btn" onclick="copyCode(this)">Copy</button></pre>
-  </div>
-  <section class="card" aria-label="Fitur Keamanan">
-    <h2><span>✨</span> Fitur Keamanan</h2>
-    <div class="features">
-      <div class="feat"><span>🛡️</span> Rate-limit per IP</div>
-      <div class="feat"><span>📅</span> Daily budget per IP</div>
-      <div class="feat"><span>🔒</span> SSRF protection</div>
-      <div class="feat"><span>📏</span> Streaming 500MB</div>
-      <div class="feat"><span>⏱️</span> Request timeout 30s</div>
-      <div class="feat"><span>🚫</span> Port scan blocking</div>
-      <div class="feat"><span>🔗</span> Redirect validation</div>
-      <div class="feat"><span>🧹</span> Header sanitization</div>
-      <div class="feat"><span>🌐</span> CORS all origins</div>
-      <div class="feat"><span>🔄</span> Cooldown otomatis</div>
-    </div>
-  </section>
-  <section class="card" aria-label="FAQ">
-    <h2><span>❓</span> FAQ — Pertanyaan Umum</h2>
-    <div class="faq-list">
-      <details>
-        <summary>Apa itu CORS Proxy?</summary>
-        <p>CORS Proxy adalah layanan yang memungkinkan browser mengakses API dari domain lain yang tidak mengizinkan CORS. Proxy menambahkan header <code>Access-Control-Allow-Origin: *</code> ke setiap response.</p>
-      </details>
-      <details>
-        <summary>Bagaimana cara menggunakannya?</summary>
-        <p>Tambahkan URL target sebagai parameter: <code>${baseUrl}/?url=https://api.example.com</code>. Mendukung semua HTTP method: GET, POST, PUT, PATCH, DELETE.</p>
-      </details>
-      <details>
-        <summary>Apakah gratis?</summary>
-        <p>Ya, sepenuhnya gratis. Limit: 60 request/menit dan 2000 request/hari per IP. Ditenagai Cloudflare Workers.</p>
-      </details>
-      <details>
-        <summary>Apakah aman digunakan?</summary>
-        <p>Ya. Dilengkapi SSRF protection, port scan blocking, header sanitization, rate limiting, validasi redirect, dan blokir IP internal/private sepenuhnya.</p>
-      </details>
-    </div>
-  </section>
-  <footer class="footer" itemscope itemtype="https://schema.org/WPFooter">
-    <p>CORS Proxy &bull; Free CORS Proxy API &bull; Bypass CORS Error &bull; CORS Anywhere Alternative</p>
-    <p>Cloudflare Workers &bull; Hardened Security &bull; Open Source</p>
-    <p style="margin-top:.4rem">Created by <a href="https://github.com/Xnuvers007" target="_blank" rel="noopener noreferrer" style="color:var(--primary);text-decoration:none" itemprop="author">Xnuvers007</a></p>
-  </footer>
-</div>
-<script>
-document.getElementById('fetchBtn').addEventListener('click', doFetch);
-document.getElementById('urlInput').addEventListener('keydown',function(e){if(e.key==='Enter')doFetch()});
-var IMAGE_TYPES=['image/png','image/jpeg','image/jpg','image/gif','image/webp','image/svg+xml','image/bmp','image/x-icon','image/avif'];
-var VIDEO_TYPES=['video/mp4','video/webm','video/ogg'];
-var AUDIO_TYPES=['audio/mpeg','audio/ogg','audio/wav','audio/webm','audio/aac','audio/flac'];
-function getMimeBase(ct){return (ct||'').split(';')[0].trim().toLowerCase()}
-async function doFetch(){
-  var input=document.getElementById('urlInput');
-  var result=document.getElementById('result');
-  var btn=document.getElementById('fetchBtn');
-  var url=input.value.trim();
-  if(!url){input.focus();return}
-  result.className='result show';result.innerHTML='';result.textContent='Fetching...';
-  btn.disabled=true;btn.textContent='Loading...';
-  try{
-    var start=performance.now();
-    var r=await fetch(location.origin+'/?url='+encodeURIComponent(url));
-    var elapsed=Math.round(performance.now()-start);
-    var limit=r.headers.get('X-RateLimit-Limit')||'-';
-    var remaining=r.headers.get('X-RateLimit-Remaining')||'-';
-    var daily=r.headers.get('X-Daily-Remaining')||'-';
-    var ct=r.headers.get('content-type')||'';
-    var mime=getMimeBase(ct);
-    var reqCount=r.headers.get('X-Request-Count')||'-';
-    var info='HTTP '+r.status+' | '+elapsed+'ms | Rate: '+remaining+'/'+limit+' | Daily: '+daily+' | Total: '+reqCount;
-    result.className='result show '+(r.ok?'success':'error');
-    if(IMAGE_TYPES.indexOf(mime)!==-1||mime.startsWith('image/')){
-      var blob=await r.blob();
-      var blobUrl=URL.createObjectURL(blob);
-      result.innerHTML=esc(info)+'\\n\\n<img src="'+blobUrl+'" alt="Preview" onload="this.style.opacity=1" style="opacity:0;transition:opacity .3s" />';
-    }
-    else if(VIDEO_TYPES.indexOf(mime)!==-1||mime.startsWith('video/')){
-      var blob=await r.blob();
-      var blobUrl=URL.createObjectURL(blob);
-      result.innerHTML=esc(info)+'\\n\\n<video controls src="'+blobUrl+'"></video>';
-    }
-    else if(AUDIO_TYPES.indexOf(mime)!==-1||mime.startsWith('audio/')){
-      var blob=await r.blob();
-      var blobUrl=URL.createObjectURL(blob);
-      result.innerHTML=esc(info)+'\\n\\n<audio controls src="'+blobUrl+'"></audio>';
-    }
-    else if(ct.includes('json')){
-      var body;
-      try{body=JSON.stringify(await r.json(),null,2)}catch(e){body=await r.text()}
-      result.textContent=info+'\\n\\n'+body;
-    }
-    else if(mime==='application/pdf'){
-      var blob=await r.blob();
-      var blobUrl=URL.createObjectURL(blob);
-      result.innerHTML=esc(info)+'\\n\\n📄 <a href="'+blobUrl+'" target="_blank" style="color:var(--primary)">Open PDF</a>';
-    }
-    else{
-      var body=await r.text();
-      if(body.length>102400)body=body.substring(0,102400)+'\\n\\n... (truncated at 100KB)';
-      result.textContent=info+'\\n\\n'+body;
-    }
-  }catch(e){
-    result.className='result show error';result.textContent='Network error: '+e.message;
-  }finally{btn.disabled=false;btn.textContent='Fetch'}
-}
-function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
-(function(){fetch(location.origin+'/rate-limit').then(function(r){return r.json()}).then(function(d){var el=document.getElementById('visitorStats');if(!el)return;el.innerHTML='<div class="stat"><div class="num">'+esc(d.ip||'-')+'</div><div class="label">Your IP</div></div>'+'<div class="stat"><div class="num">'+(d.dailyBudget?d.dailyBudget.used:0)+'</div><div class="label">Requests Today</div></div>'+'<div class="stat"><div class="num">'+(d.dailyBudget?d.dailyBudget.remaining:'-')+'</div><div class="label">Daily Remaining</div></div>'+'<div class="stat"><div class="num">'+(d.rateLimit&&d.rateLimit.blocked?'\u26d4 Blocked':'\u2705 Active')+'</div><div class="label">Status</div></div>';}).catch(function(){});})();
-function copyCode(btn){
-  var code=btn.parentElement.querySelector('code').textContent;
-  navigator.clipboard.writeText(code).then(function(){btn.textContent='Copied!';setTimeout(function(){btn.textContent='Copy'},1500)});
-}
-</script>
+null
 </body></html>`;
 }
 export default {
@@ -1117,7 +856,7 @@ function generateSitemap() {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://my-cors-proxy.zenth.workers.dev/</loc>
+    <loc>https://</loc>
     <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <priority>1.0</priority>
   </url>
